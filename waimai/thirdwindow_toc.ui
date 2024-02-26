@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>thirdwindow_toc</class>
+ <widget class="QMainWindow" name="thirdwindow_toc">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>770</width>
+    <height>969</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>MainWindow</string>
+  </property>
+  <widget class="QWidget" name="centralwidget">
+   <widget class="QTableWidget" name="bill">
+    <property name="geometry">
+     <rect>
+      <x>70</x>
+      <y>20</y>
+      <width>621</width>
+      <height>311</height>
+     </rect>
+    </property>
+    <property name="rowCount">
+     <number>0</number>
+    </property>
+    <property name="columnCount">
+     <number>4</number>
+    </property>
+    <column>
+     <property name="text">
+      <string>菜名</string>
+     </property>
+    </column>
+    <column>
+     <property name="text">
+      <string>单价</string>
+     </property>
+    </column>
+    <column>
+     <property name="text">
+      <string>份数</string>
+     </property>
+    </column>
+    <column>
+     <property name="text">
+      <string>总价</string>
+     </property>
+    </column>
+   </widget>
+   <widget class="QGraphicsView" name="QRcode">
+    <property name="geometry">
+     <rect>
+      <x>160</x>
+      <y>360</y>
+      <width>450</width>
+      <height>450</height>
+     </rect>
+    </property>
+    <property name="minimumSize">
+     <size>
+      <width>450</width>
+      <height>450</height>
+     </size>
+    </property>
+    <property name="maximumSize">
+     <size>
+      <width>450</width>
+      <height>450</height>
+     </size>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="pushButton">
+    <property name="geometry">
+     <rect>
+      <x>340</x>
+      <y>840</y>
+      <width>80</width>
+      <height>24</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>确认付款</string>
+    </property>
+   </widget>
+  </widget>
+  <widget class="QMenuBar" name="menubar">
+   <property name="geometry">
+    <rect>
+     <x>0</x>
+     <y>0</y>
+     <width>770</width>
+     <height>21</height>
+    </rect>
+   </property>
+   <widget class="QMenu" name="menu">
+    <property name="title">
+     <string>返回</string>
+    </property>
+   </widget>
+   <addaction name="menu"/>
+  </widget>
+  <widget class="QStatusBar" name="statusbar"/>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>
